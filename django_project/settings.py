@@ -25,8 +25,8 @@ SECRET_KEY = 'django-insecure-qi3&03vn2u3wn)b_)=_syn5%zbv)ug8z4f#1epxd_5uj4tgbd5
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['enigmatic-sea-38151.herokuapp.com']
-# ALLOWED_HOSTS = ['127.0.0.1']
+# ALLOWED_HOSTS = ['enigmatic-sea-38151.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1']
 
 # Application definition
 
@@ -88,6 +88,19 @@ DATABASES = {
         'PORT': '5432',
     }
 }
+
+
+DATABASES = {	
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'blog',
+        'USER': 'postgres',
+        'PASSWORD':  os.environ.get('PASSWORD'),
+        'HOST': '127.0.0.1',
+        'PORT': '5432',
+    }
+}
+
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
