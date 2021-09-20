@@ -30,7 +30,7 @@ def postlist(request):
             'nums':nums,
             'query':query,
         }
-        return render(request,'home.html',context )
+        return render(request,'blog/home.html',context )
 
 def username(request):
     if request.method == 'GET':
