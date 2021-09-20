@@ -25,8 +25,8 @@ SECRET_KEY = 'django-insecure-qi3&03vn2u3wn)b_)=_syn5%zbv)ug8z4f#1epxd_5uj4tgbd5
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# ALLOWED_HOSTS = ['enigmatic-sea-38151.herokuapp.com']
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['agile-everglades-23299.herokuapp.com']
+# ALLOWED_HOSTS = ['127.0.0.1']
 
 # Application definition
 
