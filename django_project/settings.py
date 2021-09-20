@@ -81,25 +81,25 @@ WSGI_APPLICATION = 'django_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'd9vnhhp1vns197',
-        'USER': 'cmwuhgbaagaoef',
-        'PASSWORD':  '76c383c2893f6ad3585bab913bca9ec99e5ad768bd715668a08be17d4d1c49e8',
-        'HOST': 'ec2-44-198-146-224.compute-1.amazonaws.com',
+        'NAME': 'd7e7nejc0masjr',
+        'USER': 'plcoqbbnrhuubj',
+        'PASSWORD':  'a5e6750841a7b90b7104942f3bb9aeea0fe13f2bcbd956974b3027d4b8df30d9',
+        'HOST': 'ec2-18-209-153-180.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
 
 
-DATABASES = {	
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'blog',
-        'USER': 'postgres',
-        'PASSWORD':  os.environ.get('PASSWORD'),
-        'HOST': '127.0.0.1',
-        'PORT': '5432',
-    }
-}
+# DATABASES = {	
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'blog',
+#         'USER': 'postgres',
+#         'PASSWORD':  os.environ.get('PASSWORD'),
+#         'HOST': '127.0.0.1',
+#         'PORT': '5432',
+#     }
+# }
 
 
 # Password validation
