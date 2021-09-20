@@ -10,12 +10,12 @@ from django.contrib.auth.models import User
 from django.contrib.auth.decorators import login_required
 
 
-def home(request):
-    context = {
-        'posts': Post.objects.all(),
-        'comments': Comment.objects.all(),
-    }
-    return render(request,'blog/home.html',context)
+# def home(request):
+#     context = {
+#         'posts': Post.objects.all(),
+#         'comments': Comment.objects.all(),
+#     }
+#     return render(request,'blog/home.html',context)
 
 def postlist(request):
     if request.method == 'GET':
@@ -30,7 +30,7 @@ def postlist(request):
             'nums':nums,
             'query':query,
         }
-        return render(request,'blog/home.html',context )
+        return render(request,'home.html',context )
 
 def username(request):
     if request.method == 'GET':
