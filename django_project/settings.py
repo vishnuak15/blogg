@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'crispy_forms',
     'blog',
     'users',
+    'storages',
     'django_filters',
 ]
 
